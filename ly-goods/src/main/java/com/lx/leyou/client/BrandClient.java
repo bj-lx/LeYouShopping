@@ -1,0 +1,10 @@
+package com.lx.leyou.client;
+
+import com.lx.api.BrandApi;
+import org.springframework.cloud.openfeign.FeignClient;
+
+
+@FeignClient("ITEM-SERVICE")
+public interface BrandClient extends BrandApi {
+
+}

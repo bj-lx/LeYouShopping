@@ -1,0 +1,11 @@
+package com.lx.leyou;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class LeYouSmsApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(LeYouSmsApplication.class, args);
+    }
+}
